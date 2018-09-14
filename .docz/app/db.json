@@ -1,7 +1,7 @@
 {
   "config": {
-    "title": "Docz Example Styled Components",
-    "description": "My awesome app using docz",
+    "title": "Spellbook",
+    "description": "The design system that powers Merlin Labs.",
     "themeConfig": {},
     "ordering": "descending",
     "version": "0.11.2",
