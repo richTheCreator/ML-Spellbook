@@ -1,44 +1,24 @@
 {
   "config": {
-    "title": "Spellbook",
+    "title": "📖 Spellbook",
     "description": "The design system that powers Merlin Labs.",
     "themeConfig": {},
     "ordering": "descending",
     "version": "0.11.2",
     "repository": null,
-    "native": false
+    "native": false,
+    "src": "./docs",
+    "indexHtml": "src/index.html"
   },
   "entries": {
-    "src/index.mdx": {
-      "name": "Getting Started",
-      "route": "/",
-      "order": 1,
-      "id": "6576455a124f9aaefd860597f03a8fe4",
-      "filepath": "src/index.mdx",
-      "link": null,
-      "slug": "src-index",
-      "menu": null,
-      "headings": [
-        {
-          "depth": 1,
-          "slug": "getting-started",
-          "value": "Getting Started"
-        },
-        {
-          "depth": 2,
-          "slug": "consistency",
-          "value": "Consistency"
-        }
-      ]
-    },
-    "src/components/Alert.mdx": {
+    "Alert.mdx": {
       "name": "Alert",
       "menu": "Components",
-      "id": "411d2842c3d65e6ee7d3ec119ed4c5a0",
-      "filepath": "src/components/Alert.mdx",
+      "id": "034d8202c0cb788d9ad0e22c17c653d0",
+      "filepath": "Alert.mdx",
       "link": null,
-      "slug": "src-components-alert",
-      "route": "/src-components-alert",
+      "slug": "alert",
+      "route": "/alert",
       "order": 0,
       "headings": [
         {
@@ -68,14 +48,14 @@
         }
       ]
     },
-    "src/components/Button.mdx": {
+    "Button.mdx": {
       "name": "Button",
       "menu": "Components",
-      "id": "94c04b4e4bd29ffbdeec8755c1a4c04f",
-      "filepath": "src/components/Button.mdx",
+      "id": "68a6b55def5e73bf0a1b7ab2a4a79f62",
+      "filepath": "Button.mdx",
       "link": null,
-      "slug": "src-components-button",
-      "route": "/src-components-button",
+      "slug": "button",
+      "route": "/button",
       "order": 0,
       "headings": [
         {
@@ -112,6 +92,28 @@
           "depth": 2,
           "slug": "outlined",
           "value": "Outlined"
+        }
+      ]
+    },
+    "index.mdx": {
+      "name": "Getting Started",
+      "route": "/",
+      "order": 1,
+      "id": "73498ad0e1e62a714b08085d318f9de1",
+      "filepath": "index.mdx",
+      "link": null,
+      "slug": "index",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "getting-started",
+          "value": "Getting Started"
+        },
+        {
+          "depth": 2,
+          "slug": "consistency",
+          "value": "Consistency"
         }
       ]
     }

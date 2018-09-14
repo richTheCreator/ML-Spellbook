@@ -1,8 +1,8 @@
 export const imports = {
-  'src/index.mdx': () =>
-    import(/* webpackPrefetch: true, webpackChunkName: "src-index" */ 'src/index.mdx'),
-  'src/components/Alert.mdx': () =>
-    import(/* webpackPrefetch: true, webpackChunkName: "src-components-alert" */ 'src/components/Alert.mdx'),
-  'src/components/Button.mdx': () =>
-    import(/* webpackPrefetch: true, webpackChunkName: "src-components-button" */ 'src/components/Button.mdx'),
+  'Alert.mdx': () =>
+    import(/* webpackPrefetch: true, webpackChunkName: "alert" */ 'Alert.mdx'),
+  'Button.mdx': () =>
+    import(/* webpackPrefetch: true, webpackChunkName: "button" */ 'Button.mdx'),
+  'index.mdx': () =>
+    import(/* webpackPrefetch: true, webpackChunkName: "index" */ 'index.mdx'),
 }
